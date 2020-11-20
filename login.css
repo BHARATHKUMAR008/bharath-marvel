@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("cap\ marvel\ logo.jpg");
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.loginbox{
+    width:320px;
+    height: 450px;
+    background:black;
+   
+    color: #fff;
+    top: 50%;
+    left: 40%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+   
+}
+.profile{
+    transition: all ease 0.3s;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.loginbox>p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+   
+
+}
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+    transition: all ease 0s;
+
+}
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+border-bottom: 1px solid rgba(4, 96, 218, 0.87) ;
+background: transparent;
+outline: none;
+height: 30px;
+color:#fff;
+font-size: 16px;
+}
+.loginbox input[type="submit"]
+{
+border: none;
+outline: none;
+height: 30px;
+background:rgba(4, 96, 218, 0.87);
+color:#fff;
+font-size: 18px;
+border-radius: 10%;
+
+}
+.loginbox input[type="submit"]:hover
+{
+   cursor: pointer;
+   background: #ffc107;
+   color: #000;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color:darkgrey;
+}

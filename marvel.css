@@ -1,0 +1,304 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+body{
+   background-color: white;
+   box-sizing: border-box;
+     margin: 0, auto;
+    
+
+}
+
+
+button, li ,a{
+font-weight: bold;
+font-size: 16px;
+list-style-type: none;
+color:white;
+text-decoration: none;
+padding-left: 1px;
+
+}
+.bk{
+    width: 1000px;
+    height: auto;
+    background-color: rgb(15, 16, 17);
+    color:whitesmoke;
+    margin: auto;
+    
+}
+
+
+header{
+   display: flex;
+  
+    justify-content: left;
+    align-items: center;
+    
+    background-color:black;
+ padding: 30px,10%;
+   }
+.logo{
+    cursor:pointer;
+    width: 220px;
+    height: auto;
+    transition:all 0.3s ease 0s ;
+}
+nav>ul{
+list-style-type: none;
+}
+nav>ul>li{
+    display: inline-block;
+    padding: 2px 10px;
+   
+
+}
+nav>ul>li>a{
+    transition: all 0.3s ease 0s;
+}
+nav>ul>li>a:hover{
+    color: rgba(1, 4, 8, 0.89);
+}
+button{
+   
+    
+     padding:8px 20px;
+    background-color:rgba(4, 96, 218, 0.87);
+    border :none;
+  
+    border-radius:5px;
+   cursor: pointer;
+    transition:all 0.3s ease 0s ;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+   
+}
+button:hover{
+    background-color: rgba(4, 75, 116, 0.699);
+}
+.login>a>button{
+    margin-left: 100px;
+                
+    padding:8px 17px;
+   background-color:rgba(4, 96, 218, 0.87);
+   border :none;
+   border-radius:10px;
+  cursor: pointer;
+   transition:all 0.3s ease 0s ;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-weight: bold;
+   font-size: 16px;
+}
+
+.gcse-searchbox-only{
+    padding:8px 20px;
+    border :none;
+    border-radius:10px;
+   cursor: pointer;
+    transition:all 0.3s ease 0s ;
+
+}
+  
+.htag{
+   
+    height: 100vh;
+    width: fit-content;
+
+
+}
+.slides{
+    max-width:100%;
+    height: fit-content;
+    margin-top: 3px;
+    margin-left: 5px;
+
+
+}
+    
+
+
+.slideshow-container {
+    
+    max-width: 1300px;
+    height: fit-content;
+    margin-left:20px ;
+    margin-right:20px ;
+   position: relative;
+   overflow: hidden;
+  
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    margin-right: 10px;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: right;
+   
+  }
+  .text>a>button{
+    margin-right: 40px;
+      border: solid;
+      border-left: rgba(4, 96, 218, 0.89);
+      background-color: transparent;
+    cursor: pointer;
+    transition:all 0.3s ease 0s ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: rgba(4, 96, 218, 0.89);
+  }
+  .text>a>button:hover{
+      border-color: rgba(101, 151, 216, 0.89);
+      color: red;
+      
+
+  }
+
+  
+ 
+  /* The dots/bullets/indicators */
+  span{
+      align-items: center;
+  }
+  .dot {
+     align-items: center;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+  .clearfix{
+    clear:both;
+}
+.bk{
+    width: 1300px;
+    height: auto;
+    background-color: rgb(15, 16, 17);
+    color:whitesmoke;
+    margin: auto;
+}
+
+.vedios{
+    background-color: black;
+    margin-top: 12%;
+    width: 100%;
+    height: fit-content;
+    box-sizing: content-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+   }
+.vedios>h2{
+    padding:5px 10px;
+    color:rgb(219, 25, 25);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-left: none;
+    border-top: solid;
+    border-color: rgba(4, 96, 218, 0.87);
+}
+
+
+.clearfix{
+    clear:both;
+}
+
+.vedios>iframe{
+    margin-bottom: 0px;
+    margin-left: 3px;
+    margin-top:3px;
+
+}
+.logos{
+  margin-left: 3px;
+  
+  cursor:pointer;
+  width: 220px;
+  height: auto;
+  transition:all 0.3s ease 0s ;
+}
+
+.icons>li{
+  display: inline-block;
+  align-items: center;
+  padding-left: 2px;
+}
+.icons>li>a{
+color:white
+}
+
+.icons>li:nth-child(1) a:hover{
+color:#FF0000;
+
+}
+.icons>li:nth-child(2) a:hover{
+    color: #0e76a8 ;
+    
+    }
+    
+        .icons>li:nth-child(3) a:hover{
+            color:#3b5998;
+            
+            }
+            .icons>li:nth-child(4) a:hover{
+                color:#c7448e;
+               
+                }
+
+
+     .copy{
+       padding-top: 2px;
+       border-top: solid;
+       color: rgba(4, 96, 218, 0.87);
+        padding:15px;
+        text-align: center;
+        color:rgba(4, 96, 218, 0.89);
+        background-color: black;
+    
+    }   
+
+
+  
+
+
+
+
+      
+        
+    
+  
+
+
